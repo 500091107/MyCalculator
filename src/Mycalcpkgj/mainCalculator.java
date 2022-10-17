@@ -6,8 +6,10 @@ public class mainCalculator {
 		MyCalculator obj = new MyCalculator();
 		int sum=obj.addition(12,3);
 		int sub=obj.substraction(4,1);
-		System.out.print("Subtraction is"+sub);
-		System.out.print("addition is "+sum);
+		int mult=obj.Multiply(2,3);
+		System.out.println("Multiplication is"+mult);
+		System.out.println("Subtraction is"+sub);
+		System.out.println("addition is "+sum);
 
 	}
 
