@@ -5,5 +5,8 @@ public class MyCalculator {
 	{
 		return (a+b);
 	}
-
+int substraction(int a,int b)
+{
+	return (a-b);
+}
 }
